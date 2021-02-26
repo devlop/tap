@@ -1,12 +1,8 @@
 {
     "name": "@devlop-ab/tap",
-    "version": "0.1.2",
-    "description": "",
-    "keywords": [
-        "component",
-        "frontend",
-        "framework"
-    ],
+    "version": "1.0.0",
+    "description": "A JavaScript implementation of Laravel's tap helper",
+    "keywords": [],
     "author": "Johan Rosenson",
     "license": "MIT",
     "repository": {
