@@ -5,7 +5,7 @@
 
 # tap
 
-A JavaScript implementation of [Laravel's tap](https://laravel.com/docs/8.x/helpers#method-tap) helper.
+A JavaScript implementation of Laravel's [tap helper](https://laravel.com/docs/8.x/helpers#method-tap).
 
 # Installing
 
