@@ -1,18 +1,18 @@
 {
     "name": "@devlop-ab/tap",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A JavaScript implementation of Laravel's tap helper",
     "keywords": [],
     "author": "Johan Rosenson",
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/devlop-ab/tap.git"
+        "url": "https://github.com/devlop/tap.git"
     },
     "bugs": {
-        "url": "https://github.com/devlop-ab/tap/issues"
+        "url": "https://github.com/devlop/tap/issues"
     },
-    "homepage": "https://github.com/devlop-ab/tap",
+    "homepage": "https://github.com/devlop/tap",
     "main": "dist/tap.js",
     "types": "dist/tap.d.ts",
     "files": [
