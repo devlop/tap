@@ -1,13 +1,13 @@
 'use strict';
 
-const tap = function<T>(value : T, callback : Function) : T {
+const tap = function<TypeOfValue>(value : TypeOfValue, callback : Function) : TypeOfValue {
     callback(value);
 
     return value;
 };
 
-export default tap;
-
-// Allow use of default import syntax in TypeScript
-module.exports = tap;
-module.exports.default = tap;
+// allows "import tap from '@devlop/tap'" and "import { tap } from '@devlop/tap'"
+export {
+    tap as default,
+    tap as tap,
+};

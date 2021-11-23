@@ -1,7 +1,6 @@
 /node_modules
 .DS_Store
-/devlop-ab-tap-*.tgz
+/devlop-tap-*.tgz
 /package
 tsconfig.tsbuildinfo
 package-lock.json
-/dist

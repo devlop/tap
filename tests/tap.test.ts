@@ -49,11 +49,23 @@ describe('tap', () => {
         })).not.toBe('changed');
     });
 
-    it('does not return a changed value', () => {
+    it('does not modify the variable value', () => {
         let value = 'initial';
 
         expect(tap(value, function (value) {
             value = 'changed';
         })).not.toBe('changed');
+    });
+
+    it('allows objects to be modified', () => {
+        let value = {
+            name: 'initial',
+        };
+
+        tap(value, function (value) {
+            value.name = 'changed';
+        });
+
+        expect(value.name).toBe('changed');
     });
 });

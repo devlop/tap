@@ -1,5 +1,5 @@
 <p align="center">
-    <a href="https://www.npmjs.org/package/@devlop-ab/tap"><img src="https://img.shields.io/npm/v/@devlop-ab/tap.svg" alt="Latest Stable Version"></a>
+    <a href="https://www.npmjs.org/package/@devlop/tap"><img src="https://img.shields.io/npm/v/@devlop/tap.svg" alt="Latest Stable Version"></a>
     <a href="https://github.com/devlop/tap/blob/main/LICENSE.md"><img src="https://img.shields.io/badge/license-MIT-green" alt="License"></a>
 </p>
 
@@ -12,16 +12,13 @@ A JavaScript implementation of Laravel's [tap helper](https://laravel.com/docs/8
 using npm
 
 ```bash
-npm install @devlop-ab/tap
+npm install @devlop/tap
 ```
 
 # Usage 
 
 ```js
-import tap from '@devlop-ab/tap';
-
-// or
-const tap = require('@devlop-ab/tap');
+import tap from '@devlop/tap';
 ```
 
 `tap` accepts two arguments, a value and a callback.
@@ -54,4 +51,17 @@ let anotherValue = tap(someVariable, function () {
 });
 
 console.log(anotherValue); // still true 
+```
+
+```js
+let someObject = {
+    team: 'Mora IK',
+};
+
+tap(someVariable, function () {
+    // objects are passed by reference in JavaScript and can be modified
+    someObject.name = 'Chicago Blackhawks';
+});
+
+console.log(someObject.name); // Chicago Blackhawks
 ```

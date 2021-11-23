@@ -1,6 +1,6 @@
 {
-    "name": "@devlop-ab/tap",
-    "version": "1.0.1",
+    "name": "@devlop/tap",
+    "version": "2.0.0",
     "description": "A JavaScript implementation of Laravel's tap helper",
     "keywords": [],
     "author": "Johan Rosenson",
@@ -30,12 +30,12 @@
     },
     "dependencies": {},
     "devDependencies": {
-        "@babel/core": "^7.12.10",
-        "@types/node": "^14.14.31",
-        "@babel/preset-env": "^7.12.11",
-        "@babel/preset-typescript": "^7.12.7",
-        "@types/jest": "^26.0.20",
-        "babel-jest": "^26.6.3",
-        "jest": "^26.6.3"
+        "@babel/core": "^7.16.0",
+        "@babel/preset-env": "^7.16.4",
+        "@babel/preset-typescript": "^7.16.0",
+        "@types/jest": "^27.0.3",
+        "@types/node": "^16.11.9",
+        "babel-jest": "^27.3.1",
+        "jest": "^27.3.1"
     }
 }
